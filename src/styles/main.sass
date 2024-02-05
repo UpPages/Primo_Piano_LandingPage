@@ -1,0 +1,26 @@
+@use 'variables'
+
+*   
+    text-decoration: none
+    padding: 0
+    margin: 0
+    font-family: variables.$font-stack
+    box-sizing: border-box
+    
+/* scrollbar */    
+::-webkit-scrollbar
+    width: 10px
+    height: 10px
+
+::-webkit-scrollbar-thumb
+    background-color: variables.$gray2
+    border-radius: 5px
+    
+::-webkit-scrollbar-thumb:hover
+    background-color: variables.$gray1
+
+::-webkit-scrollbar-track 
+    background-color: variables.$gray4
+
+.react-tooltip
+    z-index: 1500
