@@ -2,8 +2,45 @@
 @use '../mixins'
 
 #sobre
+    display: flex
     margin-top: 100vh
+    gap: 150px
     height: 100vh
     width: 100%
-    padding: 80px 50px
+    padding: 200px 200px
     color: white
+#sobre #texts
+    width: 60%
+#sobre #texts h3
+    letter-spacing: 2px
+    font-weight: normal
+    font-size: 2rem
+#sobre #texts p
+    text-align: justify
+#sobre #texts h4
+    cursor: pointer
+#sobre #texts h4:hover
+    @include mixins.btn-hover
+    
+// infos
+
+#infos
+    width: 40%
+#infos h3
+    font-weight: normal
+    font-size: 2rem
+    letter-spacing: 2px
+
+#infos #info_content h1
+    font-size: 7rem
+    line-height: 1
+
+#infos #info_content h2
+    letter-spacing: 2px
+    font-size: 2rem
+
+#infos #info_content #info_line
+    display: flex
+    justify-content: space-between
+    margin-bottom: 50px
+

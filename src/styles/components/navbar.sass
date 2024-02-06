@@ -8,6 +8,7 @@
     padding: 60px 30px
     display: flex
     flex-direction: column
+    overflow: hidden
     justify-content: center
     align-items: center
     width: 260px
@@ -19,6 +20,7 @@
     width: 100%
     transition: .3s
     cursor: pointer
+    filter: brightness(100)
 
 #left_nav #left_logo:hover
     width: 100%
@@ -62,8 +64,33 @@
 
 // Top bar
 #top_nav
-    padding: 20px 30px
+    height: 50px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding: 15px 50px
     position: sticky
     top: 0
     background-color: white
     z-index: 1000
+#top_nav #top_logo
+    height: 80%
+#top_nav ul
+    list-style: none
+    display: flex
+    gap: 20px
+#top_nav li
+    cursor: pointer
+    transition: .3s
+#top_nav li:hover
+    letter-spacing: 1px
+    @include mixins.btn-hover
+#top_nav svg
+    cursor: pointer
+    font-size: 1.3rem
+    margin-top: 10px
+
+#top_nav div
+    transition: .3s
+#top_nav div:hover
+    @include mixins.btn-hover

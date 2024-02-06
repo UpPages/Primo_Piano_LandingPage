@@ -1,5 +1,5 @@
 import '../styles/components/navbar.sass'
-import logoImg from '../assets/logobranca.png';
+import logoImg from '../assets/logo.svg';
 
 // Icons
 import { FaInstagram } from "react-icons/fa";
