@@ -9,7 +9,6 @@
     display: flex
     flex-direction: column
     overflow: hidden
-    justify-content: center
     align-items: center
     width: 260px
     color: white
@@ -73,8 +72,11 @@
     top: 0
     background-color: white
     z-index: 1000
-#top_nav #top_logo
-    height: 80%
+#top_nav a #top_logo
+    height: 20px
+    transition: .3s
+#top_nav a #top_logo:hover
+    opacity: .7
 #top_nav ul
     list-style: none
     display: flex

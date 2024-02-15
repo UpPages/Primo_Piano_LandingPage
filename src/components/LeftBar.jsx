@@ -9,7 +9,7 @@ const Leftbar = () => {
     return (
     <nav id='left_nav'>
         <img id='left_logo' src={logoImg}/>
-        <ul id='left_links'>
+        {/* <ul id='left_links'>
             <li>
                 <p>Sobre</p>
             </li>
@@ -27,7 +27,7 @@ const Leftbar = () => {
             <li>
                 <BsTwitterX />
             </li>
-        </ul>
+        </ul> */}
     </nav>
     )
 }
