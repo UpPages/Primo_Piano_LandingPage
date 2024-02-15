@@ -14,9 +14,9 @@ function Depoimentos() {
         const sr = ScrollReveal().reveal;
     
         sr('#depoimentos_title', { delay: 200, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#depoimentos_box #depoimento01', { delay: 700, duration: 1500, origin: 'bottom', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#depoimentos_box #depoimento02', { delay: 300, duration: 1500, origin: 'bottom', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#depoimentos_box #depoimento03', { delay: 700, duration: 1500, origin: 'bottom', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#depoimentos_box #depoimento01', { delay: 700, duration: 1000, origin: 'bottom', distance: '500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#depoimentos_box #depoimento02', { delay: 300, duration: 1000, origin: 'bottom', distance: '500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#depoimentos_box #depoimento03', { delay: 700, duration: 1500, origin: 'bottom', distance: '500px', easing: 'ease', trigger: 'onScroll', reset: true });
 
     }, []);
 

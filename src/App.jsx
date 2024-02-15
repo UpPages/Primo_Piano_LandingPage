@@ -4,10 +4,13 @@ import Sobre from './components/Sobre'
 import Depoimentos from './components/Depoimentos';
 import NavBar from './components/NavBar'
 import leftsimbol from './assets/simbolo.svg';
+import Solucoes from './components/Solucoes';
 
 import ScrollReveal from 'scrollreveal';
 
 import './styles/app.sass'
+import Footer from './components/Footer';
+
 
 
 function App() {
@@ -26,9 +29,12 @@ function App() {
         <div id='sections'>
           <NavBar/>
           <img id='left_simbol' src={leftsimbol}/>
+          <img id='third_simbol' src={leftsimbol}/>
           <Sobre/>
           <Depoimentos />
+          <Solucoes />
         </div>
+        <Footer />
       </main>
     </>
   )
