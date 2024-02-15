@@ -30,7 +30,7 @@ function App() {
           <NavBar/>
           <img id='left_simbol' src={leftsimbol}/>
           <img id='third_simbol' src={leftsimbol}/>
-          <Sobre/>
+          <Sobre />
           <Depoimentos />
           <Solucoes />
         </div>
