@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import ScrollReveal from 'scrollreveal';
 import Accordion from 'react-bootstrap/Accordion';
+import time from '../assets/Team.jpeg';
 
 import '../styles/components/perguntas.sass'
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,13 +13,15 @@ function Perguntas() {
     useEffect(() => {
         const sr = ScrollReveal().reveal;
     
-        sr('#perguntas', { delay: 300, duration: 1500, easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('.time', { delay: 200, duration: 1500, origin: 'left', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('.accordion', { delay: 200, duration: 1500, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
         
     }, []);
 
     return (
         <div id='perguntas'>
-
+            <h3>Nosso time</h3>
+            <img className='time' src={time}/>
             <h3>Perguntas Frequentes</h3>
             <div>
                 <Accordion defaultActiveKey="0">
