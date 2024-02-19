@@ -1,6 +1,5 @@
 import '../styles/components/footer.sass'
 import logoImg from '../assets/logo.svg';
-import time from '../assets/Team.jpeg';
 
 const Footer = () => {
     return (
@@ -12,7 +11,6 @@ const Footer = () => {
                     <a href="#"><h2>Projeto Web: UpPages</h2></a>
                 </div>
             </div>
-            <img id='time' src={time}/>
         </footer>
     )
 }

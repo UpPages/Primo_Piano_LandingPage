@@ -10,6 +10,7 @@ import ScrollReveal from 'scrollreveal';
 
 import './styles/app.sass'
 import Footer from './components/Footer';
+import Perguntas from './components/Perguntas';
 
 
 
@@ -33,6 +34,7 @@ function App() {
           <Sobre />
           <Depoimentos />
           <Solucoes />
+          <Perguntas />
         </div>
         <Footer />
       </main>

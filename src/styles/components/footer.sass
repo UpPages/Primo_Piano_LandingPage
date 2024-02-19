@@ -16,20 +16,11 @@ footer #top_logo
     height: 100px
     margin-right: 50px
 
-footer #time
-    height: 350px
-    position: absolute
-    left: 20px
-    margin-bottom: 50px
-    border-radius: 4px
-    padding: 10px
-    border: 2px solid white
-
 footer div
-    width: 45%
+    width: 70%
     display: flex
     align-items: center
-    justify-content: center
+    justify-content: left
     gap: 10px
 
 footer div h3, h2
@@ -42,3 +33,79 @@ footer h3
 
 footer h2
     color: variables.$blue4
+
+// Tablet
+@media (min-width: 1024px) and (max-width: 1790px)
+
+    footer
+        background-color: variables.$bg4
+        padding: 50px 0
+        height: 350px
+        display: flex
+        align-items: center
+        justify-content: center
+
+    .footer_content
+        z-index: 150
+
+    footer #top_logo
+        height: 100px
+        margin-right: 50px
+
+    footer div
+        margin-right: 120px
+        width: 70%
+        display: flex
+        align-items: center
+        justify-content: left
+        gap: 10px
+
+    footer div h3, h2
+        font-size: 1rem
+
+    footer h3
+        padding-right: 30px
+        height: 20px
+        border-right: 1px solid black
+
+    footer h2
+        color: variables.$blue4
+
+// Phone
+@media (max-width: 768px)
+
+    footer
+        transform: translateY(60vh)
+        background-color: variables.$bg4
+        padding: 10px 0
+        height: 200px
+        display: flex
+        align-items: center
+        justify-content: center
+
+    .footer_content
+        z-index: 150
+        display: flex
+        
+        flex-direction: column
+        
+    footer #top_logo
+        height: 60px
+        margin-right: 0
+
+    footer div
+        margin-right: 0
+        width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        gap: 10px
+
+    footer h2
+        font-size: .8rem
+
+    footer h3
+        font-size: 1rem
+        padding-right: 0
+        border-right: 0

@@ -9,10 +9,13 @@
     width: 100%
     padding: 200px 100px
     color: white
+
 #sobre #texts, #infos
     padding: 0 25px
+
 #sobre #texts
     width: 35%
+
 #sobre h3
     letter-spacing: 2px
     font-weight: 300
@@ -23,8 +26,10 @@
     font-size: 1.5rem
     text-align: justify
     margin-bottom: 30px
+
 #sobre #texts h4
     cursor: pointer
+    
 #sobre #texts h4:hover
     @include mixins.btn-hover
     
@@ -73,5 +78,175 @@
     overflow: hidden
     height: 110%
     width: 63%
-    top: 100vh
+    top: 95vh
     right: -30px
+
+// Tablet
+@media (min-width: 1024px) and (max-width: 1700px)
+
+    #sobre
+        display: flex
+        margin-top: 95vh
+        gap: 150px
+        height: 100vh
+        width: 100%
+        padding: 120px 70px
+        color: white
+        
+    #sobre #texts, #infos
+        padding: 0
+
+    #sobre #texts
+        width: 40%
+    #sobre h3
+
+        letter-spacing: 2px
+        font-weight: 300
+        font-size: 2rem
+        margin-bottom: 20px
+        
+    #sobre #texts p
+        font-size: 1rem
+        text-align: justify
+        margin-bottom: 30px
+
+    #sobre #texts h4
+        cursor: pointer
+    #sobre #texts h4:hover
+        @include mixins.btn-hover
+        
+    #sobre button
+        background-color: variables.$bg5
+        color: white
+        font-size: 1.5rem
+        @include mixins.btn
+        width: 250px
+        height: 50px
+    #sobre button:hover
+        @include mixins.btn-hover
+
+    // infos
+    #infos
+        z-index: 100
+        width: 60%
+        color: variables.$bg5
+
+    #infos #info_content #info h2
+        border-bottom: 3px solid variables.$bg3
+
+    #infos #info_content #info:hover h2
+        letter-spacing: 3px
+        border-bottom: 3px solid variables.$bg5
+
+    #infos #info_content h1
+        font-size: 5.3rem
+        line-height: 1.2
+
+    #infos #info_content h2
+        transition: .3s
+        font-size: 1.2rem
+
+    #infos #info_content #info_line
+        width: 100%
+        margin-bottom: 0
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+    // right bar
+
+    #right_bar_sobre
+        position: absolute
+        background-color: variables.$bg3
+        overflow: hidden
+        height: 110%
+        width: 60%
+        top: 100vh
+        right: -30px
+
+// Phone
+@media (max-width: 768px)
+
+    #sobre
+        display: flex
+        flex-direction: column
+        margin-top: 95vh
+        gap: 120px
+        height: 100vh
+        width: 100%
+        padding: 100px 30px
+        color: white
+        
+    #sobre #texts, #infos
+        padding: 0
+
+    #sobre #texts
+        width: 100%
+    #sobre h3
+        text-align: center
+        letter-spacing: 2px
+        font-weight: 300
+        font-size: 2rem
+        margin-bottom: 20px
+        
+    #sobre #texts p
+        font-size: 1rem
+        text-align: justify
+        margin-bottom: 30px
+
+    #sobre #texts h4
+        cursor: pointer
+    #sobre #texts h4:hover
+        @include mixins.btn-hover
+        
+    #sobre button
+        background-color: variables.$bg5
+        color: white
+        font-size: 1.5rem
+        @include mixins.btn
+        width: 100%
+        height: 50px
+    #sobre button:hover
+        @include mixins.btn-hover
+
+    // infos
+    #infos
+        z-index: 100
+        width: 100%
+        color: variables.$bg5
+        text-align: center
+
+    #infos #info_content #info
+        margin-bottom: 50px
+    #infos #info_content #info h2
+        border-bottom: 3px solid variables.$bg3
+
+    #infos #info_content #info:hover h2
+        letter-spacing: 3px
+        border-bottom: 3px solid variables.$bg5
+
+    #infos #info_content h1
+        font-size: 3.8rem
+        line-height: 1.2
+
+    #infos #info_content h2
+        transition: .3s
+        font-size: 1.2rem
+
+    #infos #info_content #info_line
+        width: 100%
+        margin-bottom: 0
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+
+    // right bar
+
+    #right_bar_sobre
+        position: absolute
+        background-color: variables.$bg3
+        overflow: hidden
+        height: 100%
+        width: 100%
+        top: 165vh
+        right: 0

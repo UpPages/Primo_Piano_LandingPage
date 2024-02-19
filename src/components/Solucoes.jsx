@@ -16,11 +16,11 @@ function Solucoes() {
     useEffect(() => {
         const sr = ScrollReveal().reveal;
     
-        sr('#li1', { delay: 400, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#li2', { delay: 200, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#li3', { delay: 400, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#li4', { delay: 600, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#li5', { delay: 600, duration: 1500, trigger: 'onScroll', reset: true });
+        sr('#li1', { delay: 400, duration: 1500, trigger: 'onScroll'});
+        sr('#li2', { delay: 200, duration: 1500, trigger: 'onScroll'});
+        sr('#li3', { delay: 400, duration: 1500, trigger: 'onScroll'});
+        sr('#li4', { delay: 600, duration: 1500, trigger: 'onScroll'});
+        sr('#li5', { delay: 600, duration: 1500, trigger: 'onScroll'});
     }, []);
 
     return (

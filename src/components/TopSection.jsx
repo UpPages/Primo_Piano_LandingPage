@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Leftbar from '../components/LeftBar';
-import model from '../assets/topsectionimage.jpeg';
+import model from '../assets/model2.jpg';
 import simbol from '../assets/simbolo.svg';
 import ScrollReveal from 'scrollreveal';
 import '../styles/components/topsection.sass';
@@ -23,10 +23,12 @@ function TopSection() {
             <Leftbar />
             <div id='content'>
                 <div id='titles'>
-                    <h1>Headline</h1>
-                    <h2>sub headline</h2>
+                    <h1>Seu Espaço, Sua História, Nossa Experiência</h1>
+                    <h2>Tornando Seu Ambiente Mais Bonito e Confortável</h2>
                     <a href="https://api.whatsapp.com/message/KOB3B5A6ZSLWP1?autoload=1&app_absent=0">
-                        <button>Fale conosco</button>
+                        <div class="fale_conosco">
+                            <span>Fale conosco</span>
+                        </div>
                     </a>
                 </div>
                 <div id='right_bar'>

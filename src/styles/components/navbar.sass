@@ -90,3 +90,72 @@
     cursor: pointer
     font-size: 1.3rem
     margin-top: 10px
+
+// Tablet
+@media (min-width: 1024px) and (max-width: 1790px)
+
+    // Left bar
+    #left_nav
+        z-index: 1000
+        background-color: variables.$gray4
+        padding: 40px 20px
+        display: flex
+        flex-direction: column
+        overflow: hidden
+        align-items: center
+        width: 210px
+        color: white
+        border-right: 5px solid white
+
+    #left_nav #left_logo
+        width: 100%
+        transition: .3s
+        cursor: pointer
+
+    #left_nav #left_logo:hover
+        width: 100%
+        @include mixins.btn-hover
+
+@media (min-width: 768px) and (max-width: 1024px)
+
+    // Left bar
+    #left_nav
+        align-items: center
+        width: 100%
+        height: 100px
+        position: absolute
+        padding: 20px 0
+        border-bottom: 5px solid white
+        border-right: 0
+
+    #left_nav #left_logo
+        height: 50px
+        width: 80px
+        transition: .3s
+        cursor: pointer
+
+    #left_nav #left_logo:hover
+        width: 80px
+        @include mixins.btn-hover
+
+// Phone
+@media (max-width: 768px)
+    // Left bar
+    #left_nav
+        align-items: center
+        width: 100%
+        height: 150px
+        border-bottom: 5px solid white
+        padding: 40px
+        border-right: 0
+        position: absolute !important
+
+    #left_nav #left_logo
+        height: 70px
+        width: 115px
+        transition: .3s
+        cursor: pointer
+
+    #left_nav #left_logo:hover
+        width: 115px
+        @include mixins.btn-hover

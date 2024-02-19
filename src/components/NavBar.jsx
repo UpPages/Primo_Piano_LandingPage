@@ -1,14 +1,7 @@
 import '../styles/components/navbar.sass'
-import smoothScroll from 'smooth-scroll';
 import logoImg from '../assets/primopiano.svg';
 
 const Navbar = () => {
-
-    const handleClick = (e) => {
-        e.preventDefault();
-        const targetId = e.target.getAttribute('href');
-        smoothScroll.animateScroll(document.querySelector(targetId));
-    };
     
     return (
     <nav id='top_nav'>
