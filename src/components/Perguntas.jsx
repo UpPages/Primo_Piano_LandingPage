@@ -24,7 +24,7 @@ function Perguntas() {
             <img className='time' src={time}/>
             <h3>Perguntas Frequentes</h3>
             <div>
-                <Accordion defaultActiveKey="0">
+                <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Porque devo contratar um arquiteto?</Accordion.Header>
                         <Accordion.Body>
