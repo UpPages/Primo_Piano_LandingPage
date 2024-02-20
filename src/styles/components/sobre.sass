@@ -81,8 +81,89 @@
     top: 95vh
     right: -30px
 
+@media (max-width: 1760px)     
+    #sobre
+        display: flex
+        margin-top: 80vh
+        gap: 150px
+        height: 100vh
+        width: 100%
+        padding: 200px 50px
+        color: white
+
+    #sobre #texts, #infos
+        padding: 0 25px
+
+    #sobre #texts
+        width: 40%
+
+    #sobre h3
+        letter-spacing: 2px
+        font-weight: 300
+        font-size: 2.5rem
+        margin-bottom: 20px
+        
+    #sobre #texts p
+        font-size: 1rem
+        text-align: justify
+        margin-bottom: 30px
+
+    #sobre #texts h4
+        cursor: pointer
+        
+    #sobre #texts h4:hover
+        @include mixins.btn-hover
+        
+    #sobre button
+        background-color: variables.$bg5
+        color: white
+        font-size: 1.5rem
+        @include mixins.btn
+        width: 250px
+        height: 50px
+    #sobre button:hover
+        @include mixins.btn-hover
+    // infos
+
+    #infos
+        z-index: 100
+        width: 65%
+        color: variables.$bg5
+
+    #infos #info_content #info h2
+        border-bottom: 3px solid variables.$bg3
+
+    #infos #info_content #info:hover h2
+        letter-spacing: 3px
+        border-bottom: 3px solid variables.$bg5
+
+    #infos #info_content h1
+        font-size: 5rem
+        line-height: 1.2
+
+    #infos #info_content h2
+        transition: .3s
+        font-size: 1.7rem
+
+    #infos #info_content #info_line
+        width: 100%
+        display: flex
+        justify-content: space-between
+        margin-bottom: 50px
+
+    // right bar
+
+    #right_bar_sobre
+        position: absolute
+        background-color: variables.$bg3
+        overflow: hidden
+        height: 110%
+        width: 63%
+        top: 95vh
+        right: -30px
+
 // Tablet
-@media (min-width: 1024px) and (max-width: 1700px)
+@media (min-width: 1024px) and (max-width: 1359px)
 
     #sobre
         display: flex
@@ -170,7 +251,7 @@
     #sobre
         display: flex
         flex-direction: column
-        margin-top: 95vh
+        margin-top: 90vh
         gap: 120px
         height: 100vh
         width: 100%
@@ -246,7 +327,7 @@
         position: absolute
         background-color: variables.$bg3
         overflow: hidden
-        height: 110%
+        height: 100%
         width: 100%
-        top: 170%
+        top: 165vh
         right: 0

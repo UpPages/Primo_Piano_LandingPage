@@ -91,8 +91,67 @@
     font-size: 1.3rem
     margin-top: 10px
 
+@media (max-width: 1760px)
+
+    // Left bar
+    #left_nav
+        z-index: 1000
+        background-color: variables.$gray4
+        padding: 60px 40px
+        display: flex
+        flex-direction: column
+        overflow: hidden
+        align-items: center
+        width: 260px
+        color: white
+        border-right: 10px solid white
+        gap: 30px
+
+    #left_nav #left_logo
+        width: 100%
+        transition: .3s
+        cursor: pointer
+
+    #left_nav #left_logo:hover
+        width: 100%
+        @include mixins.btn-hover
+        
+    #left_nav #left_links
+        height: 100%
+        display: flex
+        width: 100%
+        gap: 5px
+        align-items: center
+        flex-direction: column
+        justify-content: center
+        list-style: none
+        
+    #left_nav #left_links li
+        font-size: 1.2rem
+        transition: .3s
+        cursor: pointer
+
+    #left_nav #left_links li:hover
+        @include mixins.btn-hover
+        letter-spacing: 1px
+
+    #left_nav #left_social
+        display: flex
+        width: 100%
+        gap: 10px
+        font-size: 1.2rem
+        align-items: center
+        flex-direction: column
+        justify-content: center
+        list-style: none
+    #left_nav #left_social li
+        cursor: pointer
+        transition: .3s
+    #left_nav #left_social li:hover
+        @include mixins.btn-hover
+        
 // Tablet
-@media (min-width: 1024px) and (max-width: 1790px)
+@media (min-width: 1024px) and (max-width: 1359px)
 
     // Left bar
     #left_nav
