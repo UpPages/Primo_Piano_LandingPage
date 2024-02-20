@@ -13,8 +13,8 @@ function Perguntas() {
     useEffect(() => {
         const sr = ScrollReveal().reveal;
     
-        sr('.time', { delay: 200, duration: 1500, origin: 'left', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('.accordion', { delay: 200, duration: 1500, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('.time', { delay: 200, duration: 1500, origin: 'left', distance: '1500px', easing: 'ease', trigger: 'onScroll'});
+        sr('.accordion', { delay: 200, duration: 1500, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll' });
         
     }, []);
 
