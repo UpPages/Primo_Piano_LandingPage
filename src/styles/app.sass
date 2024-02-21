@@ -7,6 +7,7 @@ body
 
 #sections
     background-color: variables.$gray4
+    overflow-x: hidden
 
 #sections #left_simbol
     position: absolute
@@ -21,7 +22,6 @@ body
     position: absolute
     top: 4930px
     right: -50%
-    z-index: 10000
     filter: brightness(100)
     user-select: none
     pointer-events: none
@@ -70,6 +70,12 @@ body
 // Phone
 @media (max-width: 768px)
 
+    html, body
+        overflow-x: hidden
+    
+    body
+        position: relative
+    
     #sections #left_simbol
         position: absolute
         top: 280vh
@@ -81,6 +87,7 @@ body
         height: 200px
         
     #sections #third_simbol
+        display: none
         position: absolute
         top: 5150px
         left: 75%
