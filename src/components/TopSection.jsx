@@ -14,7 +14,7 @@ function TopSection() {
         sr('#titles h2', { delay: 600, duration: 1500, origin: 'top', distance: '1000px', easing: 'ease', trigger: 'onScroll', reset: true });
         sr('#titles a', { delay: 1500, duration: 1500, reset: true });
         sr('#left_nav', { delay: 200, duration: 1500, origin: 'left', distance: '300px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#simbol', { delay: 200, duration: 1500, origin: 'right', distance: '300px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#simbol', { delay: 200, duration: 1500, easing: 'ease', trigger: 'onScroll', reset: true });
     
     }, []);
 

@@ -10,11 +10,11 @@ function Sobre() {
     
         sr('#texts', { delay: 200, duration: 1500, origin: 'top', distance: '1000px', easing: 'ease', trigger: 'onScroll', reset: true });
         sr('#texts a', { delay: 400, duration: 1500, trigger: 'onScroll', reset: true });
-        sr('#right_bar_sobre', { delay: 200, duration: 1500, origin: 'right', distance: '1000px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#infos .info1', { delay: 500, duration: 1700, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#infos .info2', { delay: 700, duration: 1700, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#infos .info3', { delay: 700, duration: 1700, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
-        sr('#infos .info4', { delay: 900, duration: 1700, origin: 'right', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#right_bar_sobre', { delay: 200, duration: 1500, origin: 'top', distance: '1500px', easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#infos .info1', { delay: 500, duration: 1700, easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#infos .info2', { delay: 600, duration: 1700, easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#infos .info3', { delay: 700, duration: 1700, easing: 'ease', trigger: 'onScroll', reset: true });
+        sr('#infos .info4', { delay: 800, duration: 1700, easing: 'ease', trigger: 'onScroll', reset: true });
         sr('#infos h3', { duration: 1500, origin: 'top', distance: '1000px', easing: 'ease', trigger: 'onScroll', reset: true });
     
     }, []);
