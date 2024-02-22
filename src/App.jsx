@@ -25,10 +25,10 @@ function App() {
 
   return (
     <>
+      <NavBar/>
       <main>
         <TopSection/>
         <div id='sections'>
-          <NavBar/>
           <img id='left_simbol' src={leftsimbol}/>
           <img id='third_simbol' src={leftsimbol}/>
           <Sobre />
