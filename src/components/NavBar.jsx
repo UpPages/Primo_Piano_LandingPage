@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
     <nav id='top_nav'>
         <div>
-            <a href="https://api.whatsapp.com/message/KOB3B5A6ZSLWP1?autoload=1&app_absent=0"><img id='top_logo' src={logoImg}/></a>
+            <a href="https://wa.me/558496188401"><img id='top_logo' src={logoImg}/></a>
         </div>
     </nav>
     )

@@ -25,7 +25,7 @@ function TopSection() {
                 <div id='titles'>
                     <h1>Seu Espaço, Sua História, Nossa Experiência</h1>
                     <h2>Tornando Seu Ambiente Mais Bonito e Confortável</h2>
-                    <a href="https://api.whatsapp.com/message/KOB3B5A6ZSLWP1?autoload=1&app_absent=0">
+                    <a href="https://wa.me/558496188401">
                         <div class="fale_conosco">
                             <span>Fale conosco</span>
                         </div>
