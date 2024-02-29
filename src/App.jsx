@@ -12,6 +12,8 @@ import './styles/app.sass'
 import Footer from './components/Footer';
 import Perguntas from './components/Perguntas';
 
+import ReactPixel from 'react-facebook-pixel';
+
 
 
 function App() {
