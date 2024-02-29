@@ -18,8 +18,11 @@ function App() {
 
   useEffect(() => {
     const sr = ScrollReveal().reveal;
-
+    
     sr('#left_simbol', { delay: 200, duration: 1500, origin: 'left', distance: '300px', easing: 'ease', trigger: 'onScroll', reset: true });
+
+    ReactPixel.init('931545538559387');
+    ReactPixel.pageView();
     
   }, []);
 
