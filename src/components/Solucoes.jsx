@@ -51,7 +51,7 @@ function Solucoes() {
                         <FaMoneyBill />
                     </li>
                 </ul>
-                <a href="https://api.whatsapp.com/message/KOB3B5A6ZSLWP1?autoload=1&app_absent=0"><button>Fale conosco</button></a>
+                <a href="https://wa.me/558496188401"><button>Fale conosco</button></a>
             </div>
         </div>
     )

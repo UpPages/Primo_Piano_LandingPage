@@ -24,7 +24,7 @@ function Sobre() {
             <div id='texts'>
                 <h3>Nossa história</h3>
                 <p>Primo Piano, o escritório de arquitetura fundado por Iran Souza em Natal, RN. Com uma visão inovadora e inspiração na rica herança cultural local, o Primo Piano cria projetos contemporâneos que refletem a essência da cidade. Descubra nossos projetos únicos e transformadores, onde a criatividade e a funcionalidade se encontram para criar espaços extraordinários.</p>
-                <a href="https://api.whatsapp.com/message/KOB3B5A6ZSLWP1?autoload=1&app_absent=0"><button>Fale conosco</button></a>
+                <a href="https://wa.me/558496188401"><button>Fale conosco</button></a>
             </div>
             <div id='infos'>
                 <h3>Já são...</h3>
